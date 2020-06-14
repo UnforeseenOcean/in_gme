@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="in_gme_mingw" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="in_mgme" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Linker>
+			<Add library="libz.a" />
+		</Linker>
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Ay_Apu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Ay_Apu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Ay_Cpu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Ay_Cpu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Ay_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Ay_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Blip_Buffer.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Blip_Buffer.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Classic_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Classic_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Data_Reader.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Data_Reader.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Dual_Resampler.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Dual_Resampler.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Effects_Buffer.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Effects_Buffer.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Fir_Resampler.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Fir_Resampler.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gb_Apu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gb_Apu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gb_Cpu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gb_Cpu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gb_Oscs.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gb_Oscs.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gbs_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gbs_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gme_File.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gme_File.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gym_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Gym_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Hes_Apu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Hes_Apu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Hes_Cpu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Hes_Cpu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Hes_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Hes_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Kss_Cpu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Kss_Cpu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Kss_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Kss_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Kss_Scc_Apu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Kss_Scc_Apu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\M3u_Playlist.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\M3u_Playlist.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Multi_Buffer.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Multi_Buffer.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Music_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Music_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Apu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Apu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Cpu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Cpu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Fme7_Apu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Fme7_Apu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Namco_Apu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Namco_Apu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Oscs.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Oscs.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Vrc6_Apu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nes_Vrc6_Apu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nsf_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nsf_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nsfe_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Nsfe_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Sap_Apu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Sap_Apu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Sap_Cpu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Sap_Cpu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Sap_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Sap_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Sms_Apu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Sms_Apu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Sms_Oscs.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Snes_Spc.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Snes_Spc.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Spc_Cpu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Spc_Cpu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Spc_Dsp.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Spc_Dsp.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Spc_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Spc_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Vgm_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Vgm_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Vgm_Emu_Impl.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Vgm_Emu_Impl.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Ym2413_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Ym2413_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Ym2612_Emu.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\Ym2612_Emu.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\blargg_common.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\blargg_config.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\blargg_endian.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\blargg_source.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\gb_cpu_io.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\gme.cpp" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\gme.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\hes_cpu_io.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\nes_cpu_io.h" />
+		<Unit filename="Game_Music_Emu-0.5.2\gme\sap_cpu_io.h" />
+		<Unit filename="IN2.H" />
+		<Unit filename="OUT.H" />
+		<Unit filename="in_gme.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="in_gme.h" />
+		<Unit filename="in_mgme.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="resource.h" />
+		<Unit filename="util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util.h" />
+		<Unit filename="wa_ipc.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

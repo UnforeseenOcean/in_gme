@@ -1,0 +1,565 @@
+# depslib dependency file v1.0
+1165228936 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\ay_apu.cpp
+	"Ay_Apu.h"
+	"blargg_source.h"
+
+1165228932 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\ay_apu.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+
+1165727630 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\blargg_common.h
+	<stddef.h>
+	<stdlib.h>
+	<assert.h>
+	<limits.h>
+	"blargg_config.h"
+	<new>
+	<limits.h>
+	<stdint.h>
+	<inttypes.h>
+
+1211877595 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\blargg_config.h
+	"config.h"
+
+1165396614 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\blip_buffer.h
+	<limits.h>
+	"config.h"
+	<assert.h>
+
+1160985976 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\blargg_source.h
+	<assert.h>
+
+1165167212 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\ay_cpu.cpp
+	"Ay_Cpu.h"
+	"blargg_endian.h"
+	<string.h>
+	"blargg_source.h"
+
+1163806752 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\ay_cpu.h
+	"blargg_endian.h"
+
+1164939598 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\blargg_endian.h
+	"blargg_common.h"
+	<endian.h>
+
+1165727624 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\ay_emu.cpp
+	"Ay_Emu.h"
+	"blargg_endian.h"
+	<string.h>
+	"blargg_source.h"
+
+1165161800 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\ay_emu.h
+	"Classic_Emu.h"
+	"Ay_Apu.h"
+	"Ay_Cpu.h"
+
+1165240334 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\classic_emu.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+	"Music_Emu.h"
+
+1165491176 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\music_emu.h
+	"Gme_File.h"
+
+1165491306 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gme_file.h
+	"gme.h"
+	"blargg_common.h"
+	"Data_Reader.h"
+	"M3u_Playlist.h"
+
+1165779302 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gme.h
+
+1165491126 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\data_reader.h
+	"blargg_common.h"
+
+1164859224 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\m3u_playlist.h
+	"blargg_common.h"
+	"Data_Reader.h"
+
+1165727638 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\blip_buffer.cpp
+	"Blip_Buffer.h"
+	<assert.h>
+	<limits.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+
+1165601616 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\classic_emu.cpp
+	"Classic_Emu.h"
+	"Multi_Buffer.h"
+	<string.h>
+	"blargg_source.h"
+
+1163570330 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\multi_buffer.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+
+1165325926 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\data_reader.cpp
+	"Data_Reader.h"
+	"blargg_endian.h"
+	<assert.h>
+	<string.h>
+	<stdio.h>
+	"blargg_source.h"
+	"zlib.h"
+
+1164878438 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\dual_resampler.cpp
+	"Dual_Resampler.h"
+	<stdlib.h>
+	<string.h>
+	"blargg_source.h"
+
+1163998286 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\dual_resampler.h
+	"Fir_Resampler.h"
+	"Blip_Buffer.h"
+
+1165034296 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\fir_resampler.h
+	"blargg_common.h"
+	<string.h>
+
+1165727648 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\effects_buffer.cpp
+	"Effects_Buffer.h"
+	<string.h>
+	"blargg_source.h"
+
+1163569974 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\effects_buffer.h
+	"Multi_Buffer.h"
+
+1165034416 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\fir_resampler.cpp
+	"Fir_Resampler.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"blargg_source.h"
+
+1164881418 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gb_apu.cpp
+	"Gb_Apu.h"
+	<string.h>
+	"blargg_source.h"
+
+1163160474 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gb_apu.h
+	"Gb_Oscs.h"
+
+1165727652 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gb_oscs.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+
+1165590300 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gb_cpu.cpp
+	"Gb_Cpu.h"
+	<string.h>
+	"gb_cpu_io.h"
+	"blargg_source.h"
+
+1164938912 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gb_cpu.h
+	"blargg_common.h"
+	"blargg_endian.h"
+
+1165232666 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gb_cpu_io.h
+	"Gbs_Emu.h"
+	"blargg_source.h"
+
+1165136762 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gbs_emu.h
+	"Classic_Emu.h"
+	"Gb_Apu.h"
+	"Gb_Cpu.h"
+
+1165034596 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gb_oscs.cpp
+	"Gb_Apu.h"
+	<string.h>
+	"blargg_source.h"
+
+1165398010 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gbs_emu.cpp
+	"Gbs_Emu.h"
+	"blargg_endian.h"
+	<string.h>
+	"blargg_source.h"
+
+1165327792 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gme_file.cpp
+	"Gme_File.h"
+	"blargg_endian.h"
+	<string.h>
+	"blargg_source.h"
+
+1165727654 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gym_emu.cpp
+	"Gym_Emu.h"
+	"blargg_endian.h"
+	<string.h>
+	"blargg_source.h"
+
+1165136734 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gym_emu.h
+	"Dual_Resampler.h"
+	"Ym2612_Emu.h"
+	"Music_Emu.h"
+	"Sms_Apu.h"
+
+1137638258 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\ym2612_emu.h
+
+1163570958 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\sms_apu.h
+	"Sms_Oscs.h"
+
+1163570962 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\sms_oscs.h
+	"Blip_Buffer.h"
+
+1164505664 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\hes_apu.cpp
+	"Hes_Apu.h"
+	<string.h>
+	"blargg_source.h"
+
+1165547962 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\hes_apu.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+
+1165727658 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\hes_cpu.cpp
+	"Hes_Cpu.h"
+	"blargg_endian.h"
+	"hes_cpu_io.h"
+	"blargg_source.h"
+
+1163570258 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\hes_cpu.h
+	"blargg_common.h"
+
+1164505686 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\hes_cpu_io.h
+	"Hes_Emu.h"
+	"blargg_source.h"
+
+1165239492 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\hes_emu.h
+	"Classic_Emu.h"
+	"Hes_Apu.h"
+	"Hes_Cpu.h"
+
+1165485284 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\hes_emu.cpp
+	"Hes_Emu.h"
+	"blargg_endian.h"
+	<string.h>
+	"blargg_source.h"
+
+1165232506 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\kss_cpu.cpp
+	"Kss_Cpu.h"
+	"blargg_endian.h"
+	<string.h>
+	"blargg_source.h"
+
+1164782080 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\kss_cpu.h
+	"blargg_endian.h"
+
+1165727660 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\kss_emu.cpp
+	"Kss_Emu.h"
+	"blargg_endian.h"
+	<string.h>
+	"blargg_source.h"
+
+1165136814 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\kss_emu.h
+	"Classic_Emu.h"
+	"Kss_Scc_Apu.h"
+	"Kss_Cpu.h"
+	"Sms_Apu.h"
+	"Ay_Apu.h"
+
+1165430750 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\kss_scc_apu.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+	<string.h>
+
+1165034762 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\kss_scc_apu.cpp
+	"Kss_Scc_Apu.h"
+	"blargg_source.h"
+
+1165488950 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\m3u_playlist.cpp
+	"M3u_Playlist.h"
+	"Music_Emu.h"
+	<string.h>
+	"blargg_source.h"
+
+1164881424 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\multi_buffer.cpp
+	"Multi_Buffer.h"
+	"blargg_source.h"
+
+1165727666 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\music_emu.cpp
+	"Music_Emu.h"
+	"Multi_Buffer.h"
+	<string.h>
+	"blargg_source.h"
+
+1164881454 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_apu.cpp
+	"Nes_Apu.h"
+	"blargg_source.h"
+
+1163570858 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_apu.h
+	"blargg_common.h"
+	"Nes_Oscs.h"
+
+1164080226 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_oscs.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+
+1165129644 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_cpu.cpp
+	"Nes_Cpu.h"
+	"blargg_endian.h"
+	<limits.h>
+	"nes_cpu_io.h"
+	"blargg_source.h"
+
+1163569426 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_cpu.h
+	"blargg_common.h"
+
+1165168044 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_cpu_io.h
+	"Nsf_Emu.h"
+	"Nes_Namco_Apu.h"
+	"blargg_source.h"
+
+1165136744 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nsf_emu.h
+	"Classic_Emu.h"
+	"Nes_Apu.h"
+	"Nes_Cpu.h"
+
+1163571030 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_namco_apu.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+
+1165727672 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_fme7_apu.cpp
+	"Nes_Fme7_Apu.h"
+	<string.h>
+	"blargg_source.h"
+
+1165727676 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_fme7_apu.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+
+1164937818 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_namco_apu.cpp
+	"Nes_Namco_Apu.h"
+	"blargg_source.h"
+
+1165034880 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_oscs.cpp
+	"Nes_Apu.h"
+	"blargg_source.h"
+
+1165135662 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_vrc6_apu.cpp
+	"Nes_Vrc6_Apu.h"
+	"blargg_source.h"
+
+1165135664 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nes_vrc6_apu.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+
+1165168068 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nsf_emu.cpp
+	"Nsf_Emu.h"
+	"blargg_endian.h"
+	<string.h>
+	<stdio.h>
+	"Nes_Namco_Apu.h"
+	"Nes_Vrc6_Apu.h"
+	"Nes_Fme7_Apu.h"
+	"blargg_source.h"
+
+1165601860 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nsfe_emu.cpp
+	"Nsfe_Emu.h"
+	"blargg_endian.h"
+	<string.h>
+	<ctype.h>
+	"blargg_source.h"
+
+1164589084 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\nsfe_emu.h
+	"blargg_common.h"
+	"Nsf_Emu.h"
+
+1164515260 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\sap_apu.cpp
+	"Sap_Apu.h"
+	<string.h>
+	"blargg_source.h"
+
+1163334590 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\sap_apu.h
+	"blargg_common.h"
+	"Blip_Buffer.h"
+
+1165129656 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\sap_cpu.cpp
+	"Sap_Cpu.h"
+	<limits.h>
+	"blargg_endian.h"
+	"sap_cpu_io.h"
+	"blargg_source.h"
+
+1163569430 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\sap_cpu.h
+	"blargg_common.h"
+
+1165129734 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\sap_cpu_io.h
+	"Sap_Emu.h"
+	"blargg_source.h"
+
+1165127848 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\sap_emu.h
+	"Classic_Emu.h"
+	"Sap_Apu.h"
+	"Sap_Cpu.h"
+
+1165242182 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\sap_emu.cpp
+	"Sap_Emu.h"
+	"blargg_endian.h"
+	<string.h>
+	"blargg_source.h"
+
+1165034956 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\sms_apu.cpp
+	"Sms_Apu.h"
+	"blargg_source.h"
+
+1179218864 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\snes_spc.cpp
+	"Snes_Spc.h"
+	<string.h>
+	"blargg_source.h"
+
+1179218864 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\snes_spc.h
+	"Spc_Dsp.h"
+	"blargg_endian.h"
+	<assert.h>
+
+1179218830 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\spc_cpu.h
+
+1179218864 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\spc_dsp.h
+	"blargg_common.h"
+	<assert.h>
+
+1179218864 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\spc_cpu.cpp
+	"Snes_Spc.h"
+	<string.h>
+	"blargg_source.h"
+	"Spc_Cpu.h"
+
+1179218864 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\spc_dsp.cpp
+	"Spc_Dsp.h"
+	"blargg_endian.h"
+	<string.h>
+	"blargg_source.h"
+
+1179218830 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\spc_emu.cpp
+	"Spc_Emu.h"
+	"blargg_endian.h"
+	<stdlib.h>
+	<string.h>
+	"blargg_source.h"
+
+1179218830 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\spc_emu.h
+	"Fir_Resampler.h"
+	"Music_Emu.h"
+	"Snes_Spc.h"
+
+1165135942 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\vgm_emu.cpp
+	"Vgm_Emu.h"
+	"blargg_endian.h"
+	<string.h>
+	<math.h>
+	"blargg_source.h"
+
+1165136726 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\vgm_emu.h
+	"Vgm_Emu_Impl.h"
+
+1162515386 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\vgm_emu_impl.h
+	"Dual_Resampler.h"
+	"Classic_Emu.h"
+	"Ym2413_Emu.h"
+	"Ym2612_Emu.h"
+	"Sms_Apu.h"
+
+1137638264 d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\ym2413_emu.h
+
+1162882472 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\vgm_emu_impl.cpp
+	"Vgm_Emu.h"
+	<math.h>
+	<string.h>
+	"blargg_endian.h"
+	"blargg_source.h"
+
+1132966362 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\ym2413_emu.cpp
+	"Ym2413_Emu.h"
+
+1165035138 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\ym2612_emu.cpp
+	"Ym2612_Emu.h"
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<math.h>
+
+1165601464 source:d:\source code\mine\in_gme_mingw-src\game_music_emu-0.5.2\gme\gme.cpp
+	"Music_Emu.h"
+	"Effects_Buffer.h"
+	"blargg_endian.h"
+	<string.h>
+	<ctype.h>
+	"blargg_source.h"
+
+1195850358 source:d:\source code\mine\in_gme_mingw-src\dictionary.c
+	"dictionary.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1195850220 d:\source code\mine\in_gme_mingw-src\dictionary.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1211069764 source:d:\source code\mine\in_gme_mingw-src\in_gme.rc
+	"resource.h"
+	"afxres.h"
+	"windows.h"
+
+1212080999 d:\source code\mine\in_gme_mingw-src\resource.h
+
+1199381740 source:d:\source code\mine\in_gme_mingw-src\iniparser.c
+	<ctype.h>
+	"iniparser.h"
+
+1195850300 d:\source code\mine\in_gme_mingw-src\iniparser.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dictionary.h"
+
+1212041598 source:d:\source code\mine\in_gme_mingw-src\in_gme.c
+	"in_gme.h"
+	"util.h"
+
+1166678284 d:\source code\mine\in_gme_mingw-src\in2.h
+	"out.h"
+
+905085104 d:\source code\mine\in_gme_mingw-src\out.h
+
+1076389636 d:\source code\mine\in_gme_mingw-src\wa_ipc.h
+
+1212080999 source:d:\source code\mine\in_gme_mingw-src\in_mgme.rc
+	"resource.h"
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+
+1212043808 source:d:\source code\mine\in_gme_mingw-src\util.c
+	"util.h"
+
+1211899175 d:\source code\mine\in_gme_mingw-src\util.h
+	"in_gme.h"
+
+1211883129 source:d:\source code\mine\in_gme_mingw-src\config.c
+	"in_gme.h"
+
+1211883275 source:d:\source code\mine\in_gme_mingw-src\info.c
+	"in_gme.h"
+
+1212040892 d:\source code\mine\in_gme_mingw-src\in_gme.h
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdint.h>
+	<stdbool.h>
+	"in2.h"
+	"wa_ipc.h"
+	"math.h"
+	"resource.h"
+	"Game_Music_Emu-0.5.2\gme\gme.h"
+
+1211883019 d:\source code\mine\in_gme_mingw-src\config.h
+	"in_gme.h"
+
+1211883411 d:\source code\mine\in_gme_mingw-src\info.h
+

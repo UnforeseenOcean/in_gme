@@ -1,0 +1,110 @@
+MGME 
+GME based Winamp input plugin
+
+Aim:
+A suitable implementation of Game_Music_Emu under Winamp and XMPlay.
+
+
+===================
+System Requirements
+===================
+
+OS:  Windows 95 - Vista (x86 or x64)
+CPU: 200MHz
+RAM: 16MB free
+Player: Winamp 5 or XMPlay 3.4
+
+
+===================
+File Dependencies
+===================
+
+None
+
+==============
+To Do List
+==============
+- More configuration
+- Faster playlist enumeration
+
+
+====================
+Currently Known Bugs
+====================
+
+None
+
+=======
+Credits
+=======
+Developer: Mudlord
+
+Uses Game_Music_Emu 0.5.2 by Shay Green
+Uses portions of snes_spc 0.9.0 by Shay Green
+Uses zlib 1.2.3 by Mark Adler and Jean-loup Gailly
+Uses the Winamp 5.04 SDK
+Uses NSIS by Justin Frankel, Amir Szekely and the NSIS team
+
+
+==============
+Special Thanks
+==============
+silverHIRAME
+Peter Mulholland
+I.S.T
+franpa
+Metatron
+Amir Szekely
+neo_bahamut1985
+blargg
+
+
+========================
+Errata
+========================
+Title formatting fields:
+%a - Artist
+%g - Game
+%s - Song Name
+%d - Dumper
+
+
+========================
+Changes
+========================
+
+Version 0.5 beta 3:
+* Added configuration dialog
+(options will use a INI, not the Registry)
+* Added custom title formatting
+* Adjusted decoding thread priority
+* Rewrote several internal portions of code for clarity
+* Rewrote how title formatting operates
+
+Version 0.5 beta 2a:
+* Removed custom silence detection, now uses gme_track_ended() all around.
+
+Version 0.5 beta 2:
+* Fixed string formatting for files without tags. Files without tags will only show the filename without extension.
+* Files without time settings will loop indefinately. Seeking will work for up to 3 minutes regardless of filetype.
+* Fixed time reading for files that don't fill out info.length. Song length is then derived from info.intro_length + info.loop_length. This is needed for files from Project2612.org.
+* Automatic subsong track end detection of silence in subsong based formats. The player will then move to the next subsong if silence occurs for around 2 seconds.
+* Singular track songs now will move to the next song, like other formats in Winamp, on track end.
+* Added NSIS installer. It will detect for Winamp plugin directory.
+
+Version 0.5 beta 1:
+* Added seeking
+* Added subsong support to all formats that support it
+
+Version 0.3:
+* Added song info dialog
+* Fixed all compiler warnings in main plugin code
+* Fixed sample buffer size to be of a smaller size
+* Added time detection
+* Plugin no longer needs MSVC2008 runtimes
+* Switched to using TDW's builds of mingw (bleeding edge GCC ports) and Code::Blocks.
+* Optimized file size 
+
+Version 0.1:
+* Initial release
+

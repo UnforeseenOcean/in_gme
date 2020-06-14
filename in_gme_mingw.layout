@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="Game_Music_Emu-0.5.2\gme\Ay_Emu.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3568" topLine="108" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\Gbs_Emu.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2839" topLine="91" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\Gym_Emu.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4015" topLine="153" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\Hes_Emu.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3464" topLine="125" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\Kss_Emu.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2758" topLine="94" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\Spc_Cpu.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="630" topLine="294" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\Spc_Dsp.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="656" topLine="369" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\Vgm_Emu.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5474" topLine="196" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\blargg_common.h" open="0" top="0" tabpos="0">
+		<Cursor position="1332" topLine="155" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\blargg_config.h" open="0" top="0" tabpos="0">
+		<Cursor position="789" topLine="10" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\blargg_endian.h" open="0" top="0" tabpos="0">
+		<Cursor position="502" topLine="138" />
+	</File>
+	<File name="Game_Music_Emu-0.5.2\gme\gme.h" open="0" top="0" tabpos="5">
+		<Cursor position="2408" topLine="24" />
+	</File>
+	<File name="IN2.H" open="0" top="0" tabpos="1">
+		<Cursor position="2103" topLine="36" />
+	</File>
+	<File name="OUT.H" open="0" top="0" tabpos="7">
+		<Cursor position="2135" topLine="35" />
+	</File>
+	<File name="in_gme.c" open="1" top="1" tabpos="1">
+		<Cursor position="6460" topLine="222" />
+	</File>
+	<File name="in_gme.h" open="0" top="0" tabpos="2">
+		<Cursor position="1883" topLine="40" />
+	</File>
+	<File name="resource.h" open="0" top="0" tabpos="3">
+		<Cursor position="630" topLine="3" />
+	</File>
+	<File name="util.c" open="1" top="0" tabpos="2">
+		<Cursor position="1978" topLine="122" />
+	</File>
+	<File name="util.h" open="0" top="0" tabpos="3">
+		<Cursor position="143" topLine="0" />
+	</File>
+	<File name="wa_ipc.h" open="0" top="0" tabpos="0">
+		<Cursor position="32603" topLine="993" />
+	</File>
+</CodeBlocks_layout_file>
